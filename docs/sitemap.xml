@@ -1,39 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/CONTRIBUTING.html</loc>
-  </url>
-  <url>
-    <loc>/articles/MSMICA.html</loc>
-  </url>
-  <url>
-    <loc>/articles/case-study.html</loc>
-  </url>
-  <url>
-    <loc>/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>/articles/validation.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/MSMICA_algorithm.html</loc>
-  </url>
-  <url>
-    <loc>/reference/QC_filter.html</loc>
-  </url>
-  <url>
-    <loc>/reference/find.Overlapping.mzs.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>/404.html</loc></url>
+<url><loc>/CONTRIBUTING.html</loc></url>
+<url><loc>/LICENSE-text.html</loc></url>
+<url><loc>/articles/MSMICA.html</loc></url>
+<url><loc>/articles/case-study.html</loc></url>
+<url><loc>/articles/index.html</loc></url>
+<url><loc>/articles/validation.html</loc></url>
+<url><loc>/authors.html</loc></url>
+<url><loc>/index.html</loc></url>
+<url><loc>/reference/MSMICA_algorithm.html</loc></url>
+<url><loc>/reference/QC_filter.html</loc></url>
+<url><loc>/reference/custom_biochemical_reaction_loading.html</loc></url>
+<url><loc>/reference/find.Overlapping.mzs.html</loc></url>
+<url><loc>/reference/index.html</loc></url>
+<url><loc>/reference/msmica_adducts.html</loc></url>
+<url><loc>/reference/target_metabolite_search.html</loc></url>
 </urlset>
+
