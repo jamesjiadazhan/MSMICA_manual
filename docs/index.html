@@ -107,7 +107,7 @@
 <p><strong>Output:</strong> - A unique list of identified metabolites with assigned adduct, m/z, retention time, identification method, and posterior probability (0–100 %). - When applied to human plasma, urine, tissue, and mouse serum with combined HILIC positive / C18 negative data, MSMICA typically identifies ~3,000 unique metabolites per sample type.</p>
 </div>
 <div class="section level2">
-<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+<h2 id="dependency-installation">Dependency Installation<a class="anchor" aria-label="anchor" href="#dependency-installation"></a>
 </h2>
 <hr>
 <p>MSMICA is not yet on CRAN. Install from GitHub using <strong>remotes</strong> after installing the package dependencies below.</p>
@@ -127,19 +127,28 @@
 <span></span>
 <span><span class="co"># Install imputeLCMD from CRAN</span></span>
 <span><span class="kw">if</span> <span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/ns-load.html" class="external-link">requireNamespace</a></span><span class="op">(</span><span class="st">"imputeLCMD"</span>, quietly <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span></span>
-<span>    <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"imputeLCMD"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Install MetaboCoreUtilsAdduct from GitHub</span></span>
-<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"jamesjiadazhan/MetaboCoreUtilsAdduct"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Install MSMICA from GitHub</span></span>
+<span>    <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"imputeLCMD"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="msmica-installation">MSMICA Installation<a class="anchor" aria-label="anchor" href="#msmica-installation"></a>
+</h2>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Install MSMICA from GitHub</span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"jamesjiadazhan/MSMICA"</span><span class="op">)</span></span></code></pre></div>
 <p>To install from a local copy, install the dependencies above first. Then download and unzip the MSMICA repository, copy the local path, replace <code>"/path/to/MSMICA"</code> below, and run:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"/path/to/MSMICA"</span>, repos <span class="op">=</span> <span class="cn">NULL</span>, type <span class="op">=</span> <span class="st">"source"</span><span class="op">)</span></span></code></pre></div>
-<p>If you receive MSMICA as a local source archive, such as <code>.tar.gz</code>, install dependencies first and then use:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"/path/to/MSMICA_1.0.0.tar.gz"</span>, repos <span class="op">=</span> <span class="cn">NULL</span>, type <span class="op">=</span> <span class="st">"source"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"/path/to/MSMICA"</span>, repos <span class="op">=</span> <span class="cn">NULL</span>, type <span class="op">=</span> <span class="st">"source"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="getting-started">Getting started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
+</h2>
+<div class="section level3">
+<h3 id="check-the-get-started-header-on-the-top-of-the-msmica-website">Check the “Get started” header on the top of the MSMICA website<a class="anchor" aria-label="anchor" href="#check-the-get-started-header-on-the-top-of-the-msmica-website"></a>
+</h3>
+<ul>
+<li><h3 id="click-here"><a href="https://jamesjiadazhan.github.io/MSMICA_manual/articles/MSMICA.html" class="external-link">Click here</a></h3></li>
+</ul>
+</div>
 </div>
 <div class="section level2">
 <h2 id="contact">Contact<a class="anchor" aria-label="anchor" href="#contact"></a>
